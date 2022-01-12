@@ -21,10 +21,10 @@ main_page = driver.current_window_handle
 driver.find_element_by_xpath("//a[@data-testid='open-registration-form-button']").click()
 driver.implicitly_wait(10)
 
-driver.find_element_by_name("firstname").send_keys("Kseniia")
-driver.find_element_by_name("lastname").send_keys("Evans")
-driver.find_element_by_name('reg_email__').send_keys('kseniia@test.com')
-driver.find_element_by_name('reg_email_confirmation__').send_keys('kseniia@test.com')
+driver.find_element_by_name("firstname").send_keys("Marianna")
+driver.find_element_by_name("lastname").send_keys("Snitko")
+driver.find_element_by_name('reg_email__').send_keys('marie@test.com')
+driver.find_element_by_name('reg_email_confirmation__').send_keys('marie@test.com')
 driver.find_element_by_id('password_step_input').send_keys('pVbpuNv3IG')
 
 sleep(2)
